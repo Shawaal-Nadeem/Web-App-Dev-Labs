@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="num(6)">6</button>
+    <button onclick="num('+')">+</button>
+    <button onclick="num(7)">7</button>
+    <button onclick="num('=')">=</button>
+
+<p id="numb1"></p>
+<p id="op"></p>
+<p id="numb2"></p>
+<p id="result"></p>
+    <script>
+        let num1=null;
+        let operator=null;
+        let res=null;
+        function num(paramArgument){
+        if(num1==null){
+            num1=paramArgument;
+            console.log(`num1==null condition ${paramArgument}`);
+        }
+        else if(operator==null && num1!=null){
+            operator=paramArgument;
+            console.log(`operator==null && num1!=null condition ${paramArgument}`);
+        }
+        else if(paramArgument=='='){
+            if(operator=='+'){
+                res=num1+num2;
+                console.log(`paramArgument= condition ${paramArgument}`);
+            }
+        }
+        else {
+            num2=paramArgument;
+            console.log(`else condition ${paramArgument}`);
+        }
+
+            document.getElementById("numb1").innerHTML=num1;
+            document.getElementById("op").innerHTML=operator;
+            document.getElementById("numb2").innerHTML=num2;
+            document.getElementById("result").innerHTML=res;
+        }
+    </script>
+</body>
+</html>
