@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="encryptionPart">
+    <div class="inputFields">
+        <div>
+            <label>Enter Your Message:</label>
+            <input type="text" id="eMessageInput"/>
+        </div>
+        <div>
+            <label>Enter Key:</label>
+            <input type="number" id="eKeyInput" min="1" max="5"/>
+        </div>
+        <button onclick="encryption()">Click Me</button>
+    </div>
+    <h3>The Encrypted Message</h3>
+    <textarea id="encryptMessage"></textarea>
+    </div>
+
+    <div>
+        <div class="inputFields">
+            <div>
+                <label>Enter Your Message:</label>
+                <input type="text" id="dMessageInput"/>
+            </div>
+            <div>
+                <label>Enter Key:</label>
+                <input type="number" id="dKeyInput" min="1" max="5"/>
+            </div>
+            <button onclick="decryption()">Click Me</button>
+        </div>
+        <h3>The Decrypted Message</h3>
+        <textarea id="decryptMessage"></textarea>
+        </div>
+<script src="app.js"></script>
+</body>
+</html>

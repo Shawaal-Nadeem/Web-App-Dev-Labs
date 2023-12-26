@@ -1,0 +1,15 @@
+.encryptionPart{
+    margin-bottom: 50px;
+}
+.inputFields{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+h3{
+    margin-top: 10px;
+}
+textarea{
+    width: 350px;
+    height: 70px;
+}
