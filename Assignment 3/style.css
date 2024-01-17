@@ -1,0 +1,77 @@
+body{
+    background-color: thistle;
+    font-family: sans-serif;
+}
+.main{
+    width: 100%;
+}
+.inputFile{
+    display: flex;
+    justify-content: center;
+}
+.inputFile input{
+    color: blue;
+    font-size: 18px;
+}
+.parentfileContentClass{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+}
+.fileContentClass{
+    border-radius: 20px;
+    background-color: white;
+    width: 80%;
+    padding-left: 3%;
+}
+.fileContentClass h2{
+    color: darkgoldenrod;
+}
+#globalText{
+    width: 95%;
+}
+textarea{
+    padding-bottom: 5%;
+    border-style: none;
+    margin-top: 2%;
+    font-size: 18px;
+    overflow: hidden;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 150px;  
+}
+.btn button{
+    width: 100px;
+    height: 50px;
+    border-radius: 12%;
+    border-style: none;
+    cursor: pointer;
+    background-color: ghostwhite;
+}
+.btn button:hover{
+    background-color: black;
+    color: white;
+}
+.save{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.save input{
+    height: 20px;
+}
+.save button{
+    margin-top: 35px;
+    width: 100px;
+    height: 35px;
+    border-radius: 11%;
+    border-style: none;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
