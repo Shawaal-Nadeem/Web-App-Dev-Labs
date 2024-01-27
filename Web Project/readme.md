@@ -1,2 +1,2 @@
 ## Live Website 
-    https://shawaal-quizz-app.vercel.app
+    https://simple-quizz-asq4vqa6i-shawaal-nadeem.vercel.app
