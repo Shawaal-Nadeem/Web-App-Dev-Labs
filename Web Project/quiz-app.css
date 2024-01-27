@@ -5,11 +5,14 @@
 }
 
 body {
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;   
+    background-image: url(bg1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .quiz-container{
@@ -19,6 +22,12 @@ body {
     height: 350px;
     background-color: white;
     position: relative;
+}
+
+.counter{
+    margin-top: 7px;
+    margin-left: 10px;
+    display: flex;
 }
 
 #quiz-question {

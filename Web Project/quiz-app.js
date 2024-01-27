@@ -103,11 +103,15 @@ const submit = document.getElementById("submit");
 let currentQuestion = 0;
 let score = 0;
 
+document.getElementById("questionNum").innerText=currentQuestion+1;
+document.getElementById("totalQuestions").innerText=quiz.length;
+
 console.log(quiz[currentQuestion].question);
 console.log(quiz[currentQuestion].ans1text);
 console.log(quiz[currentQuestion].ans2text);
 console.log(quiz[currentQuestion].ans3text);
 console.log(quiz[currentQuestion].ans4text);
+
 
 question.textContent = quiz[currentQuestion].question;
 option_a.textContent = quiz[currentQuestion].ans1text;
@@ -129,6 +133,7 @@ submit.addEventListener("click", () => {
 
         currentQuestion++;
         if( currentQuestion < quiz.length){
+            document.getElementById("questionNum").innerText=currentQuestion+1;
             question.textContent = quiz[currentQuestion].question;
             option_a.textContent = quiz[currentQuestion].ans1text;
             option_b.textContent = quiz[currentQuestion].ans2text;
