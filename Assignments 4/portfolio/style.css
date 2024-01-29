@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Pacifico&family=Poppins:wght@500;600&display=swap');
+
+body
+{
+  background-color: rgba(30,41,59,255);
+}
+html
+{
+  scroll-behavior: smooth;
+}
+
+.home video
+{
+  display: block;
+  object-fit: fill;
+  width: 100%;
+z-index: -1;
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+}
+header nav
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+header nav h3
+{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+header nav h3 a
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+header nav ul
+{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4%;
+  margin-right: 25%;
+  font-size: 23px;
+}
+header nav ul li
+{
+  margin-left: 15%;
+   font-weight: 150;
+   list-style: none;
+}
+header nav ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+header nav ul .navBtn
+{
+  color: rgba(255, 255, 255, 0.5);
+}
+header nav ul .navBtn:hover
+{
+color: #FFFFFF;
+transition: .5s;
+}
+.home .name
+{
+  position: relative;
+  color: white;
+  margin-left: 4%;
+  margin-top: 5%;
+}
+.home .name h1
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 55px;
+  margin-top: -4%;
+}
+.home .name h2
+{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+}
+.home .name h1 span
+{
+  color: #7477FF;
+}
+.home .name p
+{
+  margin-top: 2%;
+  color: #CCCCCC;
+}
+.hireBtn
+{
+  width: 190px;
+  height: 55px;
+  background-color: #5c5efd;
+  color: #FFFFFF;
+  font-size: 22px;
+  border-radius: 8px;
+  margin-top: 3%;
+  font-family: 'popins',sans-serif;
+  font-weight: 300;
+  cursor: pointer;
+  border-style: none;
+  transition: box-shadow 0.3s ease-in;
+  box-shadow: 0 0 10px #7477FF;
+}
+.hireBtn:hover
+{
+	transition: box-shadow 0.3s ease-out;
+	box-shadow: 0 0 #7477FF;
+}
+
+/* About ME Page */
+.about
+{
+  background-color: rgba(30,41,59,255);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.seperator
+{
+  margin-top: 10%;
+}
+.about .content
+{
+  margin-left: 4%;
+  display: block;
+  box-sizing: border-box;
+  width: 60%;
+  color: #FFFFFF;
+}
+.about .content h1
+{
+font-family: 'popins',sans-serif;
+font-size: 50px;
+font-weight: 550;
+text-decoration: underline #5c5efd;
+}
+.about .content p
+{
+  margin-top: 3%;
+  font-size: 20px;
+}
+.about .content .aboutHeading2
+{
+  font-weight: bold;
+}
+.tech
+{
+  display: flex;
+}
+.tech p
+{
+  width:30%
+}
+.about .pic
+{
+  width: 30%;
+}
+
+
+.contact
+{
+  margin-top: 1%;
+}
+.contact .content
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  flex-direction: column;
+}
+.contact .content h1
+{
+  font-family: 'popins',sans-serif;
+  font-size: 50px;
+  font-weight: 550;
+  text-decoration: underline #5c5efd;
+}
+.contact .content p
+{
+  margin-top: 3%;
+  font-size: 20px;
+  width: 60%;
+  margin-bottom: 3%;
+}
+.contactInfo
+{
+  display: flex;
+  flex-direction: column;
+}
+.contactDetail
+{
+  display: flex;
+}
+.contactDetail .head
+{
+  font-weight: bold;
+}
+
+.contact-form {
+    padding: 40px 0;
+    margin: 0 10px;
+	width: 50%;
+}
+ 
+.form-container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #6c6eda;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+ 
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+	font-size: 30px;
+}
+ 
+.form-group {
+    margin-bottom: 20px;
+}
+ 
+.form-container label {
+    display:block;
+    font-weight: bold;
+}
+.form-container input, textarea{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0dac30;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+	display: flex;
+	justify-self: left;
+}
+ 
+.contact-info {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f7f7f7;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
